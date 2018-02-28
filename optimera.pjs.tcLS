@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{09d6f6f1-0d18-4731-9fd7-a7e1db70f7cb}">
+				<Prp name="relpath" type="S" value="automatisereJobber\automatisereJobber.mds.tcLS"/>
+			</Node>
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{BE9F4AF7-BEF0-4EEA-9390-36033696BBE2}"/>
+			</Node>
+			<Node name="{51890e3e-6462-493d-b3db-e2b2eb87a8a2}">
+				<Prp name="relpath" type="S" value="rabatt\rabatt.mds.tcLS"/>
+			</Node>
+			<Node name="{5abd8c33-1816-4257-ab76-1e9161c16ee9}">
+				<Prp name="relpath" type="S" value="Monter\Monter.mds.tcLS"/>
+			</Node>
+			<Node name="{64a188ec-6774-4a88-a091-b35e31b596eb}">
+				<Prp name="relpath" type="S" value="optimeraTest\monterTest.mds.tcLS"/>
+			</Node>
+			<Node name="{92ad716b-c344-4e60-9b92-6cc6612a7167}">
+				<Prp name="relpath" type="S" value="minOptimera\minOptimera.mds.tcLS"/>
+			</Node>
+			<Node name="{be9f4af7-bef0-4eea-9390-36033696bbe2}">
+				<Prp name="relpath" type="S" value="ecom\ecom.mds.tcLS"/>
+			</Node>
+			<Node name="{deb928ae-4c0e-4519-a257-2f6e2eb7f3ab}">
+				<Prp name="relpath" type="S" value="varehusAdmin\varehusAdmin.mds.tcLS"/>
+			</Node>
+			<Node name="envmngrlogs">
+				<Prp name="key" type="S" value="{D7D95241-8485-463B-BE78-1A2FADEB9318}"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{55727E42-0EA9-4552-BE24-3EB64D0C359F}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables">
+				<Node name="datav3">
+					<Node name="var0">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="3100300031003300340034003000300031003100"/>
+						</Node>
+						<Prp name="name" type="S" value="orderID"/>
+					</Node>
+					<Node name="var1">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="currentOrderId"/>
+					</Node>
+					<Node name="var2">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="75006E0064006500660069006E0065006400200074006C00660034003800310039003600310037003600"/>
+						</Node>
+						<Prp name="name" type="S" value="deliveryString"/>
+					</Node>
+					<Node name="var3">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4C0030002D004C006900740065006E002D00420061006B002D004D006100780032003700200054006C00660039003300380036003600300038003500"/>
+						</Node>
+						<Prp name="name" type="S" value="invoiceID"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="3"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

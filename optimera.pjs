@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="12.0" key="{66B15DAF-476C-4CC3-A381-ACF7D560C673}">
+	<children>
+		<child name="ecom" key="{BE9F4AF7-BEF0-4EEA-9390-36033696BBE2}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="ecom\ecom.mds" />
+		</child>
+		<child name="minOptimera" key="{92AD716B-C344-4E60-9B92-6CC6612A7167}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="minOptimera\minOptimera.mds" />
+		</child>
+		<child name="Monter" key="{5ABD8C33-1816-4257-AB76-1E9161C16EE9}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="Monter\Monter.mds" />
+		</child>
+		<child name="varehusAdmin" key="{DEB928AE-4C0E-4519-A257-2F6E2EB7F3AB}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="varehusAdmin\varehusAdmin.mds" />
+		</child>
+	</children>
+	<folders />
+	<testItems key="{6A05C573-D836-4A7E-92F3-46CA392054AA}">
+		<children>
+			<testItem key="{BE9F4AF7-BEF0-4EEA-9390-36033696BBE2}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{92AD716B-C344-4E60-9B92-6CC6612A7167}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{5ABD8C33-1816-4257-AB76-1E9161C16EE9}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{DEB928AE-4C0E-4519-A257-2F6E2EB7F3AB}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{12D37473-A439-4E1A-A663-E7E6803C1B04}">
+		<data Version="3">
+			<Items>
+				<Variable Name="orderID" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="currentOrderId" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="deliveryString" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="invoiceID" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="True">
+					<DefValue />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
+	<analysis key="{11DDC5A8-A4C7-4FBB-8CBF-2C67AC64B70D}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}" />
+</Root>
