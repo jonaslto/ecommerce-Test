@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="loginTC" key="{D005540A-7220-4FD9-98F2-8E929F360D40}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="loginTC.js" />
+		</child>
+		<child name="loggInn" key="{C7A12E89-85AE-411E-A943-E66E04A7010C}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="loggInn.js" />
+		</child>
+		<child name="functions" key="{3891EFE3-66D8-49F9-A6F6-FC81999374FD}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="functions.js" />
+		</child>
+		<child name="testData" key="{A595CB7D-8DD6-4DFD-91C0-A65751B9A74E}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="testData.js" />
+		</child>
+		<child name="loginUtils" key="{A9DCC792-4C2B-4FEA-9EAD-D29CC2A2D1DF}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="loginUtils.js" />
+		</child>
+		<child name="utils" key="{8CEF8F84-7A64-4695-A7EC-154F4AEF4E96}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="utils.js" />
+		</child>
+		<child name="minProfil" key="{82F52E91-9BC5-4072-BBAB-96CC65108082}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="minProfil.js" />
+		</child>
+		<child name="profileUtils" key="{D10F3583-6F3A-4209-9140-572AD3956B9F}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="profileUtils.js" />
+		</child>
+		<child name="jobbTC2" key="{FBC67110-225B-47FE-A616-6B81DBFD42BB}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="jobbTC2.js" />
+		</child>
+		<child name="jobbUtils" key="{6CE3DCFA-C290-4DC1-A750-166679D4AA55}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="jobbUtils.js" />
+		</child>
+		<child name="garasjeKalkulator" key="{724E4455-3522-41CB-B66B-9B18C93971E7}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="garasjeKalkulator.js" />
+		</child>
+		<child name="minBedrift" key="{C921ABF8-3571-42C9-8D2F-3D10EE48CE45}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="minBedrift.js" />
+		</child>
+		<child name="bedriftUtils" key="{5C24A122-8237-43E5-BBB5-E563EC41D537}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="bedriftUtils.js" />
+		</child>
+		<child name="Dokumentasjon" key="{47387CFB-542A-499A-B9C7-12D2B3C6BF19}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Dokumentasjon.js" />
+		</child>
+		<child name="tilbud" key="{30A99F4E-B924-4855-AAE2-725B8393144B}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="tilbud.js" />
+		</child>
+		<child name="jobbTC1" key="{7AD804C6-A532-46D5-AE2E-6DBEAC8A51D6}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="jobbTC1.js" />
+		</child>
+		<child name="dokumentasjonUtils" key="{F30A1035-ADEA-4E22-BA11-BABDD5CC43C8}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="dokumentasjonUtils.js" />
+		</child>
+		<child name="byggedeler" key="{949A5B80-898A-4CAA-8AB0-8C07D9F60BC8}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="byggedeler.js" />
+		</child>
+	</children>
+	<folders />
+</Root>
