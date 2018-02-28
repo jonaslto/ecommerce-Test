@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="checkout" key="{266B0242-1C91-4E63-8EFA-9367DC98A451}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="checkout.js" />
+		</child>
+		<child name="checkoutTestCases" key="{CC85F9EA-2E53-42B5-AAD3-891A9A253DAD}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="checkoutTestCases.js" />
+		</child>
+		<child name="functions" key="{3476A1F6-F7BA-4C0C-879B-55D52C5EDB9A}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="functions.js" />
+		</child>
+		<child name="kategoriSide" key="{5CEB9318-3469-4314-8CCD-AD8DDF61A658}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="kategoriSide.js" />
+		</child>
+		<child name="LoggInn" key="{857984A7-8D55-4CD6-A005-04EA8CEA553A}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="LoggInn.js" />
+		</child>
+		<child name="postnummer" key="{95914D31-3B23-468E-939E-A6B306B5B34B}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="postnummer.js" />
+		</child>
+		<child name="register" key="{53FA7807-ACFA-4FAF-BEEC-5B348D99C3EF}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="register.js" />
+		</child>
+		<child name="test" key="{7091883E-26CD-4E37-AD6E-56758FDEBF91}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="test.js" />
+		</child>
+		<child name="testData" key="{4663C879-66DD-4705-8764-60A38411CFF6}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="testData.js" />
+		</child>
+		<child name="checkOutTestCaseJonas" key="{2E54D3F6-8F97-499C-9215-728AD0B54D47}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="checkOutTestCaseJonas.js" />
+		</child>
+		<child name="checkoutJonas" key="{33421773-9849-4249-BB53-A62030291967}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="checkoutJonas.js" />
+		</child>
+	</children>
+	<folders />
+</Root>
