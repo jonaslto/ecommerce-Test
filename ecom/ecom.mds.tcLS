@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="logs">
+				<Prp name="key" type="S" value="{284BC51E-566B-48F2-ADBC-C090429BFE98}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables">
+				<Node name="datav3">
+					<Node name="var0">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="560061006E006C006900670020006C00650076006500720069006E006700"/>
+						</Node>
+						<Prp name="name" type="S" value="shipping1"/>
+					</Node>
+					<Node name="var1">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="5400690064007300620065007300740065006D00740020006C00650076006500720069006E006700"/>
+						</Node>
+						<Prp name="name" type="S" value="shipping2"/>
+					</Node>
+					<Node name="var10">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4F007200640069006E00610072007900440065006C0069007600650072007900"/>
+						</Node>
+						<Prp name="name" type="S" value="delivery1"/>
+					</Node>
+					<Node name="var11">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="55007300650054006F007700650072004300720061006E006500"/>
+						</Node>
+						<Prp name="name" type="S" value="delivery2"/>
+					</Node>
+					<Node name="var12">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4300720061006E0069006E00670042007900440072006900760065007200"/>
+						</Node>
+						<Prp name="name" type="S" value="delivery3"/>
+					</Node>
+					<Node name="var13">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="6E0075006C006C00"/>
+						</Node>
+						<Prp name="name" type="S" value="delivery4"/>
+					</Node>
+					<Node name="var14">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4300720061006E006500310030004D004E006F004A0069006200"/>
+						</Node>
+						<Prp name="name" type="S" value="craneLength1"/>
+					</Node>
+					<Node name="var15">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4300720061006E006500320030004D004E006F004A0069006200"/>
+						</Node>
+						<Prp name="name" type="S" value="craneLength2"/>
+					</Node>
+					<Node name="var16">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4300720061006E006500320030004D004A0069006200"/>
+						</Node>
+						<Prp name="name" type="S" value="craneLength3"/>
+					</Node>
+					<Node name="var17">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4300720061006E006500320035004D004A0069006200"/>
+						</Node>
+						<Prp name="name" type="S" value="craneLength4"/>
+					</Node>
+					<Node name="var18">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4300720061006E006500330030004D004A0069006200"/>
+						</Node>
+						<Prp name="name" type="S" value="craneLength5"/>
+					</Node>
+					<Node name="var19">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="6E0075006C006C00"/>
+						</Node>
+						<Prp name="name" type="S" value="carType1"/>
+					</Node>
+					<Node name="var2">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="480065006E00740020006600650072006400690067002000700061006B006B0065007400"/>
+						</Node>
+						<Prp name="name" type="S" value="shipping3"/>
+					</Node>
+					<Node name="var20">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4E006F0043006100720052006500710075006900720065006D0065006E0074007300"/>
+						</Node>
+						<Prp name="name" type="S" value="carType2"/>
+					</Node>
+					<Node name="var21">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="53006D0061006C006C00430061007200"/>
+						</Node>
+						<Prp name="name" type="S" value="carType3"/>
+					</Node>
+					<Node name="var22">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="42006F00780054007200750063006B00"/>
+						</Node>
+						<Prp name="name" type="S" value="carType4"/>
+					</Node>
+					<Node name="var23">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4F007000740069006D00650072006100200064006900730074002E0020006C0061006700650072002000D8007300740072006500200041006B00650072002000760065006900"/>
+						</Node>
+						<Prp name="name" type="S" value="pickupPoint"/>
+					</Node>
+					<Node name="var3">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="6E0075006C006C00"/>
+						</Node>
+						<Prp name="name" type="S" value="deliveryTime0"/>
+					</Node>
+					<Node name="var4">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="300037002D0030003900"/>
+						</Node>
+						<Prp name="name" type="S" value="deliveryTime1"/>
+					</Node>
+					<Node name="var5">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="300038002D0031003000"/>
+						</Node>
+						<Prp name="name" type="S" value="deliveryTime2"/>
+					</Node>
+					<Node name="var6">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="300039002D0031003100"/>
+						</Node>
+						<Prp name="name" type="S" value="deliveryTime3"/>
+					</Node>
+					<Node name="var7">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="310032002D0031003400"/>
+						</Node>
+						<Prp name="name" type="S" value="deliveryTime4"/>
+					</Node>
+					<Node name="var8">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="310033002D0031003500"/>
+						</Node>
+						<Prp name="name" type="S" value="deliveryTime5"/>
+					</Node>
+					<Node name="var9">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="310034002D0031003600"/>
+						</Node>
+						<Prp name="name" type="S" value="deliveryTime6"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="3"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
+	</Node>
+</Nodes>

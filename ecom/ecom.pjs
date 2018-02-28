@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="12.0" key="{66E32E9B-3C00-4306-A2C1-A8EE9C5171E5}">
+	<children>
+		<child name="ecom" key="{F2E59C49-AD3E-4EF8-83E2-63BDB3F25663}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="ecom.mds" />
+		</child>
+	</children>
+	<folders />
+	<testItems key="{A8DA8E81-60FA-4137-BE4A-D271EABA8DC9}">
+		<children>
+			<testItem key="{F2E59C49-AD3E-4EF8-83E2-63BDB3F25663}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{CA496D23-41E9-4F9E-BCB5-F7801D4B2FC1}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{390CDA35-E25E-4F82-873B-13D789528DCE}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}" />
+</Root>

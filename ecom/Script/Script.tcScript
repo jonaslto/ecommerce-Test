@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="checkLink" key="{72573181-DAEC-4A37-9ACA-6398383D3A84}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="checkLink.js" />
+		</child>
+		<child name="chekcoutTC" key="{12AAEE0D-461C-43EB-AB25-F8D43A805C53}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="chekcoutTC.js" />
+		</child>
+		<child name="leggTilProdukt" key="{B73A46F6-B10A-4A2C-AAC5-583D799F9EF0}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="leggTilProdukt.js" />
+		</child>
+		<child name="testData" key="{A4B97990-0603-4D33-9D23-DA994E64D117}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="testData.js" />
+		</child>
+		<child name="cartUtils" key="{52B022C8-5812-4479-9803-4CF69B1E603E}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="cartUtils.js" />
+		</child>
+		<child name="checkoutUtils" key="{81CA0662-680F-451C-8B4F-A466A2A4D58A}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="checkoutUtils.js" />
+		</child>
+		<child name="m3Utils" key="{62964F18-77EB-4857-9AA8-A9D4A18ABDE6}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="m3Utils.js" />
+		</child>
+		<child name="orderUtils" key="{808977D1-EAB3-4AD6-A9B9-F4F1CC866639}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="orderUtils.js" />
+		</child>
+		<child name="m3TC" key="{BC41CBD5-FC9C-4A87-B7EC-97CFEFE83E14}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="m3TC.js" />
+		</child>
+		<child name="miljoValidation" key="{4CCD9354-9D43-49DF-89D6-126989D85BB9}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="miljoValidation.js" />
+		</child>
+	</children>
+	<folders />
+</Root>

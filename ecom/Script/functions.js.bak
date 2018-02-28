@@ -1,0 +1,114 @@
+﻿const testData = require("testData");
+
+function addProduct(produktID) {
+    let handlevognAntall;
+    if (testData.key.minicart.Exists) {
+        handlevognAntall = testData.key.minicart.contentText;
+    } else {
+        handlevognAntall = 0;
+    }
+    // søk frem produktid og legg til i handlevogn
+    testData.key.search.Keys(produktID + "[Enter]");
+    testData.key.searchResult.Click();
+    aqUtils.Delay(30000);
+    testData.key.orderAmount.Keys("1[Enter]");
+
+
+    //!!HUSK Å FIKSE!! FUNKER IKKE PÅ LITEN SKJERM!!
+    //Sjekk hvis handlevogn ikonet blir oppdatert
+    /* if((handlevognAntall++) == testData.key.minicart.contentText){
+         Log.Message("Handlevogn ikon oppdatert");
+
+     }else{
+         Log.Message(typeof handlevognAntall);
+         Log.Error("Handlevogn ikon ikke oppdatert");
+
+     } */
+}
+
+function unloading(loss, kran, vindu, lev, bakKran, totalVekt) {
+    // Lossing
+    const unloadingLabels = testData.key.unloadingForm.Fieldset(0).findAll("ObjectType", "Label", 2);
+
+    for (let i = 0; i <= unloadingLabels.length; i++) {
+        if (unloadingLabels[i].ObjectLabel === loss) {
+            Log.Message(unloadingLabels[i].ObjectLabel);
+            unloadingLabels[i].ClickButton();
+            if (loss.includes("Kraning")) {
+                const craneLength = testData.key.unloadingForm.Fieldset(0).findAll("ObjectType", "Label", 3);
+                for (let j = 0; j <= craneLength.length; j++) {
+                    if (craneLength[j].ObjectLabel == kran) {
+                        craneLength[j].ClickButton();
+                        if (vindu === true) {
+                            Log.Message("inni loop");
+                            const window = testData.key.unloadingForm.findChild("ObjectLabel", "Ønsker vendbar gipsgaffel", 10);
+                            window.Click();
+                        }
+                        break;
+                    }
+                }
+            }
+            break;
+        }
+    }
+
+    //levering type bil
+    deliveryCar = testData.key.unloadingForm.Fieldset(1).findAll("ObjectType", "Label", 1);
+
+    for (let i = 0; i <= deliveryCar.length; i++) {
+        if (deliveryCar[i].ObjectLabel == lev) {
+            deliveryCar[i].ClickButton();
+            break;
+        }
+    }
+
+    //tilleggsbehov
+    additionalNeeds = testData.key.unloadingForm.Fieldset(2).findAll("ObjectType", "Label", 1);
+
+    if (bakKran === true) {
+        additionalNeeds[0].Click()
+    }
+    if (totalVekt > 0) {
+        testData.key.maxWeight.setText(totalVekt);
+    }
+}
+
+function checkOrderNumber(orderNumber) {
+    testData.link.ordreLink.Click();
+    aqUtils.Delay(20000);
+    if (testData.orders.table.Cell(1, 0).TextNode(0).contentText == orderNumber) {
+        Log.Message("Ordrenummer Funnet");
+    }
+    else {
+        Log.Error("Ordrenummer etter registrering ikke funnet i ordrelisten");
+    }
+
+}
+
+/*function pickDate() {
+    const getNextWeekday = date => {
+        const nextDay = new Date(date.getTime() + (24 * 60 * 60 * 1000));
+        return nextDay.getDay() !== 0 && nextDay.getDay() !== 6 ? nextDay : getNextWeekday(nextDay);
+    };*/
+    /*
+    const currentTime = new Date();
+    let month = currentTime.getMonth() + 1;
+    let day = currentTime.getDate() + 1;
+    const year = currentTime.getFullYear();
+    const dayName = currentTime.getDay() + 1;
+    if (month < 10) {
+        month = '0' + month;
+    }
+    if (dayName == 6 || dayName == 7) {
+        day = day + 2;
+    }
+
+    return day + "." + month + "." + year */
+}
+
+module.exports = [addProduct, unloading, checkOrderNumber, pickDate];
+
+/* module.exports.addProduct = addProduct;
+module.exports.unloading = unloading;
+module.exports.checkOrderNumber = checkOrderNumber;
+module.exports.pickDate = pickDate; */
