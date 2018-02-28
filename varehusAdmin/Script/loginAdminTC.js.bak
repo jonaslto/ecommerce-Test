@@ -1,0 +1,36 @@
+﻿const testData = require("testDataAdmin");
+const utils = require("utils");
+
+function loggInn(brukernavn, passord){
+  Aliases.LogInForm.textboxBrukernavn.SetText(brukernavn);
+  Aliases.LogInForm.passwordboxPassord.SetText(passord);
+  Aliases.LogInForm.buttonLoggInn.Click();
+  aqUtils.Delay(5000);        
+}
+
+function logOut() {
+  Aliases.linkLoggUt.Click();
+} 
+
+function loginGyldigTC(brukernr) {
+
+  let brukernavn = testData.bruker[brukernr].epost;
+  let passord = testData.bruker[brukernr].password;
+  loggInn(brukernavn, passord);
+
+  logOut();
+
+}
+
+function loginFeilTC(brukernr) {
+
+  let brukernavn = testData.bruker[brukernr].epost;
+  let passord = utils.random(7);
+  loggInn(brukernavn, passord);
+
+  aqObject.CheckProperty(Aliases.LogInForm.textnodeUgyldigBrukernavnPassord, "Visible", cmpEqual, true);
+
+}
+
+
+

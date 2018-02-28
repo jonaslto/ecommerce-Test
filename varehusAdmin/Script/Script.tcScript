@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="utils" key="{0436F9BE-7D0B-4506-96B6-8A65D920408C}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="utils.js" />
+		</child>
+		<child name="loginAdmin" key="{D0E8F1AB-5ED3-4628-A1B8-A074C1767B81}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="loginAdmin.js" />
+		</child>
+		<child name="trailerTC" key="{58AD593A-0786-4CF7-A8D0-AA164DCE915D}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="trailerTC.js" />
+		</child>
+		<child name="userTC" key="{AC65CB34-F159-4D7D-8A23-7F824E668F4C}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="userTC.js" />
+		</child>
+		<child name="testDataAdmin" key="{9F1432BB-1EDD-4E6A-8C41-917AAA914A6D}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="testDataAdmin.js" />
+		</child>
+	</children>
+	<folders />
+</Root>
